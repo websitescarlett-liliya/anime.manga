@@ -1,0 +1,6324 @@
+[
+  {
+    "id": "anime-01",
+    "title": "Shirogane no Kishi",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-01-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-01-banner/1280/480",
+    "sinopsis": "Shirogane no Kishi bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Supernatural",
+      "Fantasi"
+    ],
+    "status": "Ongoing",
+    "season": "Spring",
+    "year": 2022,
+    "score": 6.9,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-02",
+    "title": "Yami no Tsubasa",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-02-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-02-banner/1280/480",
+    "sinopsis": "Yami no Tsubasa bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Supernatural",
+      "Sci-Fi",
+      "Petualangan",
+      "Slice of Life"
+    ],
+    "status": "Completed",
+    "season": "Fall",
+    "year": 2021,
+    "score": 6.6,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-03",
+    "title": "Hoshizora Utakata",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-03-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-03-banner/1280/480",
+    "sinopsis": "Hoshizora Utakata bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Sci-Fi",
+      "Slice of Life"
+    ],
+    "status": "Completed",
+    "season": "Winter",
+    "year": 2025,
+    "score": 7.1,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-04",
+    "title": "Kaen Ryuu Densetsu",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-04-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-04-banner/1280/480",
+    "sinopsis": "Kaen Ryuu Densetsu bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Drama",
+      "Romansa",
+      "Slice of Life"
+    ],
+    "status": "Ongoing",
+    "season": "Summer",
+    "year": 2021,
+    "score": 8.8,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "title": "Episode 13",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 14,
+        "title": "Episode 14",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 15,
+        "title": "Episode 15",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 16,
+        "title": "Episode 16",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 17,
+        "title": "Episode 17",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 18,
+        "title": "Episode 18",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 19,
+        "title": "Episode 19",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 20,
+        "title": "Episode 20",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 21,
+        "title": "Episode 21",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 22,
+        "title": "Episode 22",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 23,
+        "title": "Episode 23",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-05",
+    "title": "Rakuen no Kanata",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-05-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-05-banner/1280/480",
+    "sinopsis": "Rakuen no Kanata bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Misteri",
+      "Horor",
+      "Fantasi",
+      "Komedi"
+    ],
+    "status": "Completed",
+    "season": "Spring",
+    "year": 2023,
+    "score": 6.8,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-06",
+    "title": "Tetsu no Kokoro",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-06-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-06-banner/1280/480",
+    "sinopsis": "Tetsu no Kokoro bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Horor",
+      "Isekai"
+    ],
+    "status": "Completed",
+    "season": "Summer",
+    "year": 2025,
+    "score": 7.3,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "title": "Episode 13",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 14,
+        "title": "Episode 14",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 15,
+        "title": "Episode 15",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 16,
+        "title": "Episode 16",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 17,
+        "title": "Episode 17",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 18,
+        "title": "Episode 18",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-07",
+    "title": "Aoi Tsuki no Yoru",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-07-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-07-banner/1280/480",
+    "sinopsis": "Aoi Tsuki no Yoru bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Romansa",
+      "Sci-Fi",
+      "Petualangan",
+      "Misteri"
+    ],
+    "status": "Ongoing",
+    "season": "Winter",
+    "year": 2025,
+    "score": 7.4,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-08",
+    "title": "Sakura No Kioku",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-08-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-08-banner/1280/480",
+    "sinopsis": "Sakura No Kioku bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Drama",
+      "Supernatural",
+      "Petualangan",
+      "Aksi"
+    ],
+    "status": "Completed",
+    "season": "Spring",
+    "year": 2023,
+    "score": 9.5,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "title": "Episode 13",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 14,
+        "title": "Episode 14",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 15,
+        "title": "Episode 15",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 16,
+        "title": "Episode 16",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 17,
+        "title": "Episode 17",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-09",
+    "title": "Kage no Senshi",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-09-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-09-banner/1280/480",
+    "sinopsis": "Kage no Senshi bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Misteri",
+      "Fantasi"
+    ],
+    "status": "Completed",
+    "season": "Fall",
+    "year": 2026,
+    "score": 9.0,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "title": "Episode 13",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-10",
+    "title": "Ginga Tabibito",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-10-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-10-banner/1280/480",
+    "sinopsis": "Ginga Tabibito bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Horor",
+      "Drama",
+      "Olahraga"
+    ],
+    "status": "Ongoing",
+    "season": "Summer",
+    "year": 2026,
+    "score": 9.3,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-11",
+    "title": "Reikon Gakuen",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-11-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-11-banner/1280/480",
+    "sinopsis": "Reikon Gakuen bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Olahraga",
+      "Komedi",
+      "Sci-Fi",
+      "Supernatural"
+    ],
+    "status": "Completed",
+    "season": "Spring",
+    "year": 2022,
+    "score": 7.9,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-12",
+    "title": "Kuroi Hana no Yakusoku",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-12-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-12-banner/1280/480",
+    "sinopsis": "Kuroi Hana no Yakusoku bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Supernatural",
+      "Sci-Fi",
+      "Drama",
+      "Olahraga"
+    ],
+    "status": "Completed",
+    "season": "Summer",
+    "year": 2021,
+    "score": 7.2,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "title": "Episode 13",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 14,
+        "title": "Episode 14",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-13",
+    "title": "Toki no Meikyuu",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-13-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-13-banner/1280/480",
+    "sinopsis": "Toki no Meikyuu bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Misteri",
+      "Fantasi",
+      "Petualangan"
+    ],
+    "status": "Ongoing",
+    "season": "Spring",
+    "year": 2025,
+    "score": 9.1,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-14",
+    "title": "Yuki no Ou",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-14-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-14-banner/1280/480",
+    "sinopsis": "Yuki no Ou bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Olahraga",
+      "Romansa"
+    ],
+    "status": "Completed",
+    "season": "Fall",
+    "year": 2026,
+    "score": 7.9,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "title": "Episode 13",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 14,
+        "title": "Episode 14",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 15,
+        "title": "Episode 15",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 16,
+        "title": "Episode 16",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-15",
+    "title": "Ranpu no Sekai",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-15-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-15-banner/1280/480",
+    "sinopsis": "Ranpu no Sekai bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Drama",
+      "Supernatural"
+    ],
+    "status": "Completed",
+    "season": "Summer",
+    "year": 2026,
+    "score": 8.3,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "title": "Episode 13",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 14,
+        "title": "Episode 14",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-16",
+    "title": "Akatsuki Gunshi",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-16-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-16-banner/1280/480",
+    "sinopsis": "Akatsuki Gunshi bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Horor",
+      "Drama",
+      "Komedi"
+    ],
+    "status": "Ongoing",
+    "season": "Fall",
+    "year": 2021,
+    "score": 8.8,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "title": "Episode 13",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 14,
+        "title": "Episode 14",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 15,
+        "title": "Episode 15",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 16,
+        "title": "Episode 16",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 17,
+        "title": "Episode 17",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 18,
+        "title": "Episode 18",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 19,
+        "title": "Episode 19",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 20,
+        "title": "Episode 20",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 21,
+        "title": "Episode 21",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 22,
+        "title": "Episode 22",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 23,
+        "title": "Episode 23",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 24,
+        "title": "Episode 24",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-17",
+    "title": "Mahou Shoujo Elis",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-17-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-17-banner/1280/480",
+    "sinopsis": "Mahou Shoujo Elis bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Olahraga",
+      "Komedi"
+    ],
+    "status": "Completed",
+    "season": "Fall",
+    "year": 2025,
+    "score": 6.7,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-18",
+    "title": "Kizuna no Kaze",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-18-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-18-banner/1280/480",
+    "sinopsis": "Kizuna no Kaze bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Romansa",
+      "Sci-Fi",
+      "Fantasi",
+      "Isekai"
+    ],
+    "status": "Completed",
+    "season": "Winter",
+    "year": 2026,
+    "score": 8.7,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "title": "Episode 13",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 14,
+        "title": "Episode 14",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 15,
+        "title": "Episode 15",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 16,
+        "title": "Episode 16",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 17,
+        "title": "Episode 17",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 18,
+        "title": "Episode 18",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-19",
+    "title": "Ryuuou no Densetsu",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-19-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-19-banner/1280/480",
+    "sinopsis": "Ryuuou no Densetsu bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Psikologis",
+      "Olahraga",
+      "Horor"
+    ],
+    "status": "Ongoing",
+    "season": "Winter",
+    "year": 2023,
+    "score": 7.8,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "title": "Episode 13",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 14,
+        "title": "Episode 14",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 15,
+        "title": "Episode 15",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 16,
+        "title": "Episode 16",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 17,
+        "title": "Episode 17",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 18,
+        "title": "Episode 18",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 19,
+        "title": "Episode 19",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 20,
+        "title": "Episode 20",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 21,
+        "title": "Episode 21",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 22,
+        "title": "Episode 22",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 23,
+        "title": "Episode 23",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anime-20",
+    "title": "Chikyuu Saigo no Hi",
+    "type": "TV",
+    "cover": "https://picsum.photos/seed/anime-20-cover/400/560",
+    "banner": "https://picsum.photos/seed/anime-20-banner/1280/480",
+    "sinopsis": "Chikyuu Saigo no Hi bercerita tentang perjalanan penuh liku seorang tokoh utama yang berusaha menemukan jati dirinya di tengah dunia yang penuh konflik dan misteri, dibumbui pertarungan emosional serta aksi yang mendebarkan.",
+    "genre": [
+      "Supernatural",
+      "Mecha"
+    ],
+    "status": "Completed",
+    "season": "Summer",
+    "year": 2025,
+    "score": 8.8,
+    "episodes": [
+      {
+        "no": 1,
+        "title": "Episode 1",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Episode 2",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "title": "Episode 3",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "title": "Episode 4",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "title": "Episode 5",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "title": "Episode 6",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "title": "Episode 7",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "title": "Episode 8",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "title": "Episode 9",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "title": "Episode 10",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "title": "Episode 11",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "title": "Episode 12",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "title": "Episode 13",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 14,
+        "title": "Episode 14",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 15,
+        "title": "Episode 15",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 16,
+        "title": "Episode 16",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 17,
+        "title": "Episode 17",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 18,
+        "title": "Episode 18",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 19,
+        "title": "Episode 19",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      },
+      {
+        "no": 20,
+        "title": "Episode 20",
+        "servers": [
+          {
+            "name": "YouTube",
+            "type": "youtube",
+            "url": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+          },
+          {
+            "name": "Drive",
+            "type": "drive",
+            "url": "https://drive.google.com/file/d/1a2b3c4d5e/preview"
+          },
+          {
+            "name": "MP4 Server",
+            "type": "mp4",
+            "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          }
+        ]
+      }
+    ]
+  }
+]

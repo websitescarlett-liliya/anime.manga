@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manga — Kuronime</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="manga">
+
+  <div id="navbar-root"></div>
+  <main class="container" id="main-area">
+    <div class="page-title-bar"><h1>Memuat...</h1></div>
+  </main>
+
+  <footer class="footer">Kuronime — Portal Anime & Manga. Tanpa iklan, 100% data lokal.</footer>
+
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+  <script>
+    const qs = new URLSearchParams(location.search);
+    const mangaId = qs.get('id');
+    const main = document.getElementById('main-area');
+
+    async function boot(){
+      const list = await loadManga();
+      if (mangaId) return renderDetail(list, mangaId);
+      return renderList(list);
+    }
+
+    function renderList(list){
+      main.innerHTML = `
+        <div class="page-title-bar"><h1>Daftar Manga</h1></div>
+        <div class="filter-bar">
+          <input type="search" id="f-search" placeholder="Cari judul manga...">
+          <select id="f-genre"><option value="">Semua Genre</option></select>
+          <select id="f-status">
+            <option value="">Semua Status</option>
+            <option value="Ongoing">Ongoing</option>
+            <option value="Completed">Completed</option>
+          </select>
+        </div>
+        <div class="grid-cards" id="list-grid">${skeletonCards(12)}</div>
+      `;
+      const genres = [...new Set(list.flatMap(m=>m.genre))].sort();
+      document.getElementById('f-genre').innerHTML += genres.map(g=>`<option value="${g}">${g}</option>`).join('');
+
+      function apply(){
+        const q = document.getElementById('f-search').value.toLowerCase();
+        const genre = document.getElementById('f-genre').value;
+        const status = document.getElementById('f-status').value;
+        const filtered = list.filter(m =>
+          m.title.toLowerCase().includes(q) &&
+          (!genre || m.genre.includes(genre)) &&
+          (!status || m.status === status)
+        );
+        document.getElementById('list-grid').innerHTML = filtered.length ? filtered.map(cardHTML).join('') : `<div class="center-empty">Tidak ada manga yang cocok.</div>`;
+        wireCardBookmarks();
+      }
+      ['f-search','f-genre','f-status'].forEach(id => document.getElementById(id).addEventListener('input', apply));
+      apply();
+    }
+
+    function cardHTML(m){
+      const bm = isBookmarked('manga', m.id);
+      return `<div class="card">
+        <span class="status-chip ${m.status.toLowerCase()}">${m.status}</span>
+        <button class="bookmark-btn ${bm?'active':''}" data-type="manga" data-id="${m.id}">★</button>
+        <a href="manga.html?id=${m.id}"><img class="cover-ratio" src="${m.cover}" loading="lazy" alt="${m.title}"></a>
+        <div class="card-body">
+          <a href="manga.html?id=${m.id}"><div class="card-title">${m.title}</div></a>
+          <div class="card-meta"><span>${m.chapters.length} Ch</span><span>${m.genre[0]||''}</span></div>
+        </div>
+      </div>`;
+    }
+    function wireCardBookmarks(){
+      document.querySelectorAll('.bookmark-btn').forEach(btn=>{
+        btn.onclick = (e)=>{
+          e.preventDefault(); e.stopPropagation();
+          const active = toggleBookmark(btn.dataset.type, btn.dataset.id);
+          btn.classList.toggle('active', active);
+          showToast(active ? 'Ditambahkan ke bookmark' : 'Dihapus dari bookmark');
+        };
+      });
+    }
+
+    function renderDetail(list, id){
+      const m = list.find(x => x.id === id);
+      if (!m) { main.innerHTML = `<div class="center-empty">Manga tidak ditemukan.</div>`; return; }
+      const history = lsGet(LS.HISTORY_MANGA, {})[m.id];
+      const bm = isBookmarked('manga', m.id);
+      const follow = isFollowing('manga', m.id);
+
+      main.innerHTML = `
+        <div class="detail-head" style="margin-top:24px;">
+          <img class="detail-cover" src="${m.cover}" alt="${m.title}">
+          <div class="detail-info" style="padding-top:0;">
+            <div class="detail-title">${m.title}</div>
+            <div class="tag-row">
+              ${m.genre.map(g=>`<span class="tag">${g}</span>`).join('')}
+              <span class="tag">${m.status}</span>
+            </div>
+            <div class="detail-actions">
+              ${history ? `<a class="btn primary" href="reader.html?id=${m.id}&ch=${history.chapter}">▶ Lanjutkan Chapter ${history.chapter}</a>` : `<a class="btn primary" href="reader.html?id=${m.id}&ch=1">▶ Baca Chapter 1</a>`}
+              <button class="btn" id="btn-bookmark">${bm ? '★ Tersimpan' : '☆ Bookmark'}</button>
+              <button class="btn" id="btn-follow">${follow ? '🔔 Diikuti' : '🔕 Ikuti'}</button>
+            </div>
+          </div>
+        </div>
+        <p class="detail-sinopsis">${m.sinopsis}</p>
+        <h3 style="margin:24px 0 6px;">Daftar Chapter</h3>
+        <div class="ep-grid" id="ch-grid"></div>
+      `;
+
+      document.getElementById('ch-grid').innerHTML = m.chapters.map(c => `
+        <a class="ep-item ${history && history.chapter >= c.no ? 'watched' : ''}" href="reader.html?id=${m.id}&ch=${c.no}">Chapter ${c.no}</a>
+      `).reverse().join('');
+
+      document.getElementById('btn-bookmark').onclick = () => {
+        const active = toggleBookmark('manga', m.id);
+        document.getElementById('btn-bookmark').textContent = active ? '★ Tersimpan' : '☆ Bookmark';
+      };
+      document.getElementById('btn-follow').onclick = () => {
+        const active = toggleFollow('manga', m.id, m.title);
+        document.getElementById('btn-follow').textContent = active ? '🔔 Diikuti' : '🔕 Ikuti';
+        showToast(active ? `Mengikuti ${m.title}` : `Berhenti mengikuti ${m.title}`);
+      };
+    }
+
+    document.addEventListener('DOMContentLoaded', boot);
+  </script>
+</body>
+</html>

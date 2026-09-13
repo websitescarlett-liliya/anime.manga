@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baca Manga — Kuronime</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="reader">
+
+  <div class="reader-topbar" id="reader-topbar"></div>
+  <div class="reader-stage" id="reader-stage"></div>
+  <div class="reader-progress" id="reader-progress"></div>
+  <div class="reader-pageindicator" id="reader-indicator" hidden></div>
+
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+  <script>
+    const qs = new URLSearchParams(location.search);
+    const mangaId = qs.get('id');
+    const chNo = +qs.get('ch') || 1;
+
+    let manga, chapter, settings, curPage = 0, zoom = 1;
+
+    async function boot(){
+      const list = await loadManga();
+      manga = list.find(m => m.id === mangaId);
+      if (!manga) { document.getElementById('reader-stage').innerHTML = '<div class="center-empty" style="color:#ccc;">Manga tidak ditemukan.</div>'; return; }
+      chapter = manga.chapters.find(c => c.no === chNo) || manga.chapters[0];
+      settings = getSettings();
+
+      // Resume dari halaman terakhir dibaca (kalau chapter sama)
+      const hist = lsGet(LS.HISTORY_MANGA, {})[manga.id];
+      curPage = (hist && hist.chapter === chapter.no) ? hist.page : 0;
+
+      applyBodyThemeClass();
+      renderTopbar();
+      renderStage();
+      preloadAhead(curPage);
+    }
+
+    function applyBodyThemeClass(){
+      const root = document.documentElement;
+      const isDark = root.getAttribute('data-theme') !== 'light';
+      document.body.classList.toggle('reader-light', !isDark);
+    }
+
+    function renderTopbar(){
+      const bar = document.getElementById('reader-topbar');
+      const idx = manga.chapters.findIndex(c=>c.no===chapter.no);
+      const prev = manga.chapters[idx-1], next = manga.chapters[idx+1];
+      bar.innerHTML = `
+        <div class="grp">
+          <a class="btn" style="padding:7px 12px;font-size:.8rem;" href="manga.html?id=${manga.id}">← ${manga.title}</a>
+          <span style="font-size:.8rem;color:#aaa;">Ch ${chapter.no}</span>
+        </div>
+        <div class="grp">
+          <button id="mode-vertical">Vertikal</button>
+          <button id="mode-page">Per Halaman</button>
+          <button id="dir-toggle">Arah: ${settings.manga.direction==='ltr'?'Kiri→Kanan':'Kanan→Kiri'}</button>
+          <select id="zoom-select">
+            <option value="0.7">Zoom 70%</option>
+            <option value="1">Zoom 100%</option>
+            <option value="1.3">Zoom 130%</option>
+            <option value="1.6">Zoom 160%</option>
+          </select>
+          <button id="dark-toggle">🌓</button>
+          <button id="fullscreen-toggle">⛶</button>
+        </div>
+        <div class="grp">
+          ${prev ? `<button id="prev-ch">← Ch ${prev.no}</button>` : ''}
+          ${next ? `<button id="next-ch">Ch ${next.no} →</button>` : ''}
+        </div>
+      `;
+      document.getElementById('mode-vertical').onclick = () => setMode('vertical');
+      document.getElementById('mode-page').onclick = () => setMode('page');
+      document.getElementById('dir-toggle').onclick = () => {
+        settings.manga.direction = settings.manga.direction === 'ltr' ? 'rtl' : 'ltr';
+        saveSettings(settings);
+        renderTopbar(); renderStage();
+      };
+      document.getElementById('zoom-select').value = zoom;
+      document.getElementById('zoom-select').onchange = (e) => { zoom = +e.target.value; renderStage(); };
+      document.getElementById('dark-toggle').onclick = () => {
+        document.body.classList.toggle('reader-light');
+      };
+      document.getElementById('fullscreen-toggle').onclick = () => {
+        if (!document.fullscreenElement) document.documentElement.requestFullscreen().catch(()=>{});
+        else document.exitFullscreen();
+      };
+      if (prev) document.getElementById('prev-ch').onclick = () => location.href = `reader.html?id=${manga.id}&ch=${prev.no}`;
+      if (next) document.getElementById('next-ch').onclick = () => location.href = `reader.html?id=${manga.id}&ch=${next.no}`;
+    }
+
+    function setMode(mode){
+      settings.manga.readerMode = mode;
+      saveSettings(settings);
+      renderStage();
+    }
+
+    function renderStage(){
+      const stage = document.getElementById('reader-stage');
+      stage.className = 'reader-stage mode-' + settings.manga.readerMode;
+      stage.style.setProperty('--m', settings.manga.margin + 'px');
+      const indicator = document.getElementById('reader-indicator');
+      const pages = chapter.pages;
+
+      if (settings.manga.readerMode === 'vertical') {
+        indicator.hidden = true;
+        stage.innerHTML = pages.map((p, i) => `<img data-i="${i}" src="${p}" style="margin-bottom:${settings.manga.margin}px; transform:scale(${zoom}); transform-origin:top center;" loading="lazy" alt="Halaman ${i+1}">`).join('');
+        window.onscroll = () => {
+          const imgs = [...stage.querySelectorAll('img')];
+          const mid = window.scrollY + window.innerHeight/2;
+          let closest = 0, best = Infinity;
+          imgs.forEach((img,i)=>{
+            const d = Math.abs(img.offsetTop - mid);
+            if (d < best) { best = d; closest = i; }
+          });
+          curPage = closest;
+          updateProgress();
+          setMangaHistory(manga.id, chapter.no, curPage);
+          preloadAhead(curPage);
+        };
+        window.scrollTo(0, 0);
+      } else {
+        // Per halaman klik
+        const order = settings.manga.direction === 'rtl' ? 'rtl-mode' : '';
+        stage.innerHTML = `
+          <img id="page-img" src="${pages[curPage]}" style="transform:scale(${zoom});" alt="Halaman ${curPage+1}">
+          <button class="reader-page-nav left" id="nav-left"></button>
+          <button class="reader-page-nav right" id="nav-right"></button>
+        `;
+        indicator.hidden = false;
+        indicator.textContent = `${curPage+1} / ${pages.length}`;
+
+        const goNext = () => changePage(1);
+        const goPrev = () => changePage(-1);
+        // RTL: tombol kiri = maju, kanan = mundur
+        document.getElementById('nav-left').onclick = settings.manga.direction === 'rtl' ? goNext : goPrev;
+        document.getElementById('nav-right').onclick = settings.manga.direction === 'rtl' ? goPrev : goNext;
+        updateProgress();
+        setMangaHistory(manga.id, chapter.no, curPage);
+        preloadAhead(curPage);
+      }
+    }
+
+    function changePage(delta){
+      const pages = chapter.pages;
+      const next = curPage + delta;
+      if (next < 0) return;
+      if (next >= pages.length) {
+        const idx = manga.chapters.findIndex(c=>c.no===chapter.no);
+        const nextCh = manga.chapters[idx+1];
+        if (nextCh) location.href = `reader.html?id=${manga.id}&ch=${nextCh.no}`;
+        return;
+      }
+      curPage = next;
+      const img = document.getElementById('page-img');
+      if (settings.manga.pageAnim) {
+        img.style.opacity = 0;
+        setTimeout(() => { img.src = pages[curPage]; img.style.opacity = 1; }, 120);
+      } else {
+        img.src = pages[curPage];
+      }
+      document.getElementById('reader-indicator').textContent = `${curPage+1} / ${pages.length}`;
+      updateProgress();
+      setMangaHistory(manga.id, chapter.no, curPage);
+      preloadAhead(curPage);
+    }
+
+    function updateProgress(){
+      const pages = chapter.pages;
+      const pct = ((curPage+1) / pages.length) * 100;
+      document.getElementById('reader-progress').style.width = pct + '%';
+    }
+
+    /* Preload 3 gambar selanjutnya via IndexedDB cache */
+    async function preloadAhead(fromIndex){
+      const pages = chapter.pages;
+      for (let i = fromIndex + 1; i <= fromIndex + 3 && i < pages.length; i++) {
+        const url = pages[i];
+        const cached = await PamDB.getCachedImage(url).catch(()=>null);
+        if (cached) continue;
+        const img = new Image();
+        img.onload = () => {
+          try {
+            const canvas = document.createElement('canvas');
+            canvas.width = img.naturalWidth; canvas.height = img.naturalHeight;
+            const ctx = canvas.getContext('2d');
+            ctx.drawImage(img, 0, 0);
+            PamDB.cacheImage(url, canvas.toDataURL('image/jpeg', 0.85)).catch(()=>{});
+          } catch {}
+        };
+        img.src = url;
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (settings && settings.manga.readerMode === 'page') {
+        if (e.key === 'ArrowRight') changePage(settings.manga.direction === 'rtl' ? -1 : 1);
+        if (e.key === 'ArrowLeft') changePage(settings.manga.direction === 'rtl' ? 1 : -1);
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', boot);
+  </script>
+
+  <style>
+    #page-img{ transition: opacity .12s ease; }
+  </style>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuronime — Portal Anime & Manga</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+  <div id="navbar-root"></div>
+
+  <!-- HERO SLIDER -->
+  <section class="hero" id="hero"></section>
+
+  <main class="container">
+    <section class="section">
+      <div class="section-head">
+        <h2>🔥 Ongoing Musim Ini</h2>
+        <a href="anime.html?status=Ongoing">Lihat semua →</a>
+      </div>
+      <div class="grid-cards" id="ongoing-grid">${''}</div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>✅ Anime Selesai Tayang</h2>
+        <a href="anime.html?status=Completed">Lihat semua →</a>
+      </div>
+      <div class="grid-cards" id="completed-grid"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>📖 Manga Terbaru</h2>
+        <a href="manga.html">Lihat semua →</a>
+      </div>
+      <div class="grid-cards" id="manga-grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Kuronime — Portal Anime & Manga. Dibuat murni dengan HTML, CSS &amp; JavaScript. Tanpa iklan, 100% data lokal.
+  </footer>
+
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+  <script>
+    async function initHome(){
+      const heroEl = document.getElementById('hero');
+      const ongoingGrid = document.getElementById('ongoing-grid');
+      const completedGrid = document.getElementById('completed-grid');
+      const mangaGrid = document.getElementById('manga-grid');
+      ongoingGrid.innerHTML = skeletonCards(6);
+      completedGrid.innerHTML = skeletonCards(6);
+      mangaGrid.innerHTML = skeletonCards(6);
+
+      const [animeList, mangaList] = await Promise.all([loadAnime(), loadManga()]);
+
+      // Hero: top 5 by score
+      const heroList = [...animeList].sort((a,b)=>b.score-a.score).slice(0,5);
+      heroEl.innerHTML = heroList.map((a,i)=>`
+        <div class="hero-slide ${i===0?'active':''}" style="background-image:url('${a.banner}')" data-i="${i}">
+          <div class="hero-content">
+            <span class="hero-badge">${a.status} • ${a.season} ${a.year}</span>
+            <h1 class="hero-title">${a.title}</h1>
+            <p class="hero-desc">${a.sinopsis}</p>
+            <div class="hero-btns">
+              <a class="btn primary" href="anime.html?id=${a.id}">▶ Tonton Sekarang</a>
+              <a class="btn" href="anime.html?id=${a.id}">Detail</a>
+            </div>
+          </div>
+        </div>`).join('') + `<div class="hero-dots">${heroList.map((_,i)=>`<span class="${i===0?'active':''}" data-i="${i}"></span>`).join('')}</div>`;
+
+      let cur = 0;
+      const slides = heroEl.querySelectorAll('.hero-slide');
+      const dots = heroEl.querySelectorAll('.hero-dots span');
+      function goTo(i){
+        slides[cur].classList.remove('active'); dots[cur].classList.remove('active');
+        cur = i; slides[cur].classList.add('active'); dots[cur].classList.add('active');
+      }
+      dots.forEach(d => d.onclick = () => goTo(+d.dataset.i));
+      setInterval(()=> goTo((cur+1) % slides.length), 6000);
+
+      ongoingGrid.innerHTML = animeList.filter(a=>a.status==='Ongoing').slice(0,12).map(animeCardHTML).join('') || `<div class="center-empty">Tidak ada data.</div>`;
+      completedGrid.innerHTML = animeList.filter(a=>a.status==='Completed').slice(0,12).map(animeCardHTML).join('');
+      mangaGrid.innerHTML = mangaList.slice(0,12).map(mangaCardHTML).join('');
+
+      wireCardBookmarks();
+    }
+
+    function animeCardHTML(a){
+      const bm = isBookmarked('anime', a.id);
+      return `<div class="card">
+        <span class="status-chip ${a.status.toLowerCase()}">${a.status}</span>
+        <button class="bookmark-btn ${bm?'active':''}" data-type="anime" data-id="${a.id}" title="Bookmark">★</button>
+        <a href="anime.html?id=${a.id}"><img class="cover-ratio" src="${a.cover}" alt="${a.title}" loading="lazy"></a>
+        <div class="card-body">
+          <a href="anime.html?id=${a.id}"><div class="card-title">${a.title}</div></a>
+          <div class="card-meta"><span>${a.episodes.length} Eps</span><span class="score-chip">★ ${a.score}</span></div>
+        </div>
+      </div>`;
+    }
+    function mangaCardHTML(m){
+      const bm = isBookmarked('manga', m.id);
+      return `<div class="card">
+        <span class="status-chip ${m.status.toLowerCase()}">${m.status}</span>
+        <button class="bookmark-btn ${bm?'active':''}" data-type="manga" data-id="${m.id}" title="Bookmark">★</button>
+        <a href="manga.html?id=${m.id}"><img class="cover-ratio" src="${m.cover}" alt="${m.title}" loading="lazy"></a>
+        <div class="card-body">
+          <a href="manga.html?id=${m.id}"><div class="card-title">${m.title}</div></a>
+          <div class="card-meta"><span>${m.chapters.length} Ch</span><span>${m.genre[0]||''}</span></div>
+        </div>
+      </div>`;
+    }
+    function wireCardBookmarks(){
+      document.querySelectorAll('.bookmark-btn').forEach(btn=>{
+        btn.onclick = (e)=>{
+          e.preventDefault(); e.stopPropagation();
+          const active = toggleBookmark(btn.dataset.type, btn.dataset.id);
+          btn.classList.toggle('active', active);
+          showToast(active ? 'Ditambahkan ke bookmark' : 'Dihapus dari bookmark');
+        };
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', initHome);
+  </script>
+</body>
+</html>

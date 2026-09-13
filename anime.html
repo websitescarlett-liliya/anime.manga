@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anime — Kuronime</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="anime">
+
+  <div id="navbar-root"></div>
+  <main class="container" id="main-area">
+    <div class="page-title-bar"><h1>Memuat...</h1></div>
+    <div class="grid-cards">SKELETON</div>
+  </main>
+
+  <footer class="footer">Kuronime — Portal Anime & Manga. Tanpa iklan, 100% data lokal.</footer>
+
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+  <script>
+    const qs = new URLSearchParams(location.search);
+    const animeId = qs.get('id');
+    const epNo = qs.get('ep');
+    const main = document.getElementById('main-area');
+
+    async function boot(){
+      const list = await loadAnime();
+      if (animeId && epNo) return renderPlayer(list, animeId, +epNo);
+      if (animeId) return renderDetail(list, animeId);
+      return renderList(list);
+    }
+
+    /* ---------------- LIST + FILTER ---------------- */
+    function renderList(list){
+      main.innerHTML = `
+        <div class="page-title-bar"><h1>Daftar Anime</h1></div>
+        <div class="filter-bar">
+          <input type="search" id="f-search" placeholder="Cari judul anime...">
+          <select id="f-genre"><option value="">Semua Genre</option></select>
+          <select id="f-status">
+            <option value="">Semua Status</option>
+            <option value="Ongoing">Ongoing</option>
+            <option value="Completed">Completed</option>
+          </select>
+          <select id="f-season"><option value="">Semua Musim</option></select>
+          <select id="f-year"><option value="">Semua Tahun</option></select>
+          <select id="f-score">
+            <option value="0">Semua Skor</option>
+            <option value="7">7+</option>
+            <option value="8">8+</option>
+            <option value="9">9+</option>
+          </select>
+        </div>
+        <div class="grid-cards" id="list-grid">${skeletonCards(12)}</div>
+      `;
+
+      const genres = [...new Set(list.flatMap(a=>a.genre))].sort();
+      const seasons = [...new Set(list.map(a=>a.season))];
+      const years = [...new Set(list.map(a=>a.year))].sort((a,b)=>b-a);
+      document.getElementById('f-genre').innerHTML += genres.map(g=>`<option value="${g}">${g}</option>`).join('');
+      document.getElementById('f-season').innerHTML += seasons.map(s=>`<option value="${s}">${s}</option>`).join('');
+      document.getElementById('f-year').innerHTML += years.map(y=>`<option value="${y}">${y}</option>`).join('');
+
+      if (qs.get('status')) document.getElementById('f-status').value = qs.get('status');
+
+      function apply(){
+        const q = document.getElementById('f-search').value.toLowerCase();
+        const genre = document.getElementById('f-genre').value;
+        const status = document.getElementById('f-status').value;
+        const season = document.getElementById('f-season').value;
+        const year = document.getElementById('f-year').value;
+        const score = +document.getElementById('f-score').value;
+        const filtered = list.filter(a =>
+          a.title.toLowerCase().includes(q) &&
+          (!genre || a.genre.includes(genre)) &&
+          (!status || a.status === status) &&
+          (!season || a.season === season) &&
+          (!year || String(a.year) === year) &&
+          a.score >= score
+        );
+        const grid = document.getElementById('list-grid');
+        grid.innerHTML = filtered.length ? filtered.map(cardHTML).join('') : `<div class="center-empty">Tidak ada anime yang cocok dengan filter.</div>`;
+        wireCardBookmarks();
+      }
+      ['f-search','f-genre','f-status','f-season','f-year','f-score'].forEach(id =>
+        document.getElementById(id).addEventListener('input', apply));
+      apply();
+    }
+
+    function cardHTML(a){
+      const bm = isBookmarked('anime', a.id);
+      return `<div class="card">
+        <span class="status-chip ${a.status.toLowerCase()}">${a.status}</span>
+        <button class="bookmark-btn ${bm?'active':''}" data-type="anime" data-id="${a.id}">★</button>
+        <a href="anime.html?id=${a.id}"><img class="cover-ratio" src="${a.cover}" loading="lazy" alt="${a.title}"></a>
+        <div class="card-body">
+          <a href="anime.html?id=${a.id}"><div class="card-title">${a.title}</div></a>
+          <div class="card-meta"><span>${a.episodes.length} Eps</span><span class="score-chip">★ ${a.score}</span></div>
+        </div>
+      </div>`;
+    }
+    function wireCardBookmarks(){
+      document.querySelectorAll('.bookmark-btn').forEach(btn=>{
+        btn.onclick = (e)=>{
+          e.preventDefault(); e.stopPropagation();
+          const active = toggleBookmark(btn.dataset.type, btn.dataset.id);
+          btn.classList.toggle('active', active);
+          showToast(active ? 'Ditambahkan ke bookmark' : 'Dihapus dari bookmark');
+        };
+      });
+    }
+
+    /* ---------------- DETAIL ---------------- */
+    function renderDetail(list, id){
+      const a = list.find(x => x.id === id);
+      if (!a) { main.innerHTML = `<div class="center-empty">Anime tidak ditemukan.</div>`; return; }
+      const history = lsGet(LS.HISTORY_ANIME, {})[a.id];
+      const bm = isBookmarked('anime', a.id);
+      const follow = isFollowing('anime', a.id);
+
+      main.innerHTML = `
+        <div class="detail-banner" style="background-image:url('${a.banner}')"></div>
+        <div class="detail-head">
+          <img class="detail-cover" src="${a.cover}" alt="${a.title}">
+          <div class="detail-info">
+            <div class="detail-title">${a.title}</div>
+            <div class="tag-row">
+              ${a.genre.map(g=>`<span class="tag">${g}</span>`).join('')}
+              <span class="tag">${a.status}</span>
+              <span class="tag">${a.season} ${a.year}</span>
+              <span class="tag">★ ${a.score}</span>
+            </div>
+            <div class="detail-actions">
+              ${history ? `<a class="btn primary" href="anime.html?id=${a.id}&ep=${history.ep}">▶ Lanjutkan Ep ${history.ep}</a>` : `<a class="btn primary" href="anime.html?id=${a.id}&ep=1">▶ Tonton Episode 1</a>`}
+              <button class="btn" id="btn-bookmark">${bm ? '★ Tersimpan' : '☆ Bookmark'}</button>
+              <button class="btn" id="btn-follow">${follow ? '🔔 Diikuti' : '🔕 Ikuti'}</button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <p class="detail-sinopsis">${a.sinopsis}</p>
+          <h3 style="margin:24px 0 6px;">Daftar Episode</h3>
+          <div class="ep-grid" id="ep-grid"></div>
+        </div>
+      `;
+
+      document.getElementById('ep-grid').innerHTML = a.episodes.map(e => `
+        <a class="ep-item ${history && history.ep >= e.no ? 'watched' : ''}" href="anime.html?id=${a.id}&ep=${e.no}">Episode ${e.no}</a>
+      `).join('');
+
+      document.getElementById('btn-bookmark').onclick = () => {
+        const active = toggleBookmark('anime', a.id);
+        document.getElementById('btn-bookmark').textContent = active ? '★ Tersimpan' : '☆ Bookmark';
+      };
+      document.getElementById('btn-follow').onclick = () => {
+        const active = toggleFollow('anime', a.id, a.title);
+        document.getElementById('btn-follow').textContent = active ? '🔔 Diikuti' : '🔕 Ikuti';
+        showToast(active ? `Mengikuti ${a.title}` : `Berhenti mengikuti ${a.title}`);
+      };
+    }
+
+    /* ---------------- PLAYER ---------------- */
+    function renderPlayer(list, id, ep){
+      const a = list.find(x => x.id === id);
+      if (!a) { main.innerHTML = `<div class="center-empty">Anime tidak ditemukan.</div>`; return; }
+      const episode = a.episodes.find(e => e.no === ep) || a.episodes[0];
+      setAnimeHistory(a.id, episode.no);
+
+      const settings = getSettings();
+      main.innerHTML = `
+        <div class="page-title-bar"><h1>${a.title} — Episode ${episode.no}</h1></div>
+        <div class="player-layout">
+          <div>
+            <div class="player-wrap" id="player-wrap"></div>
+            <div class="server-tabs" id="server-tabs"></div>
+            <div class="player-nav">
+              <a class="btn" href="${episode.no>1?`anime.html?id=${a.id}&ep=${episode.no-1}`:'#'}" ${episode.no<=1?'style="opacity:.4;pointer-events:none;"':''}>← Episode Sebelumnya</a>
+              <a class="btn" href="anime.html?id=${a.id}">Detail Anime</a>
+              <a class="btn primary" id="next-ep-btn" href="${episode.no<a.episodes.length?`anime.html?id=${a.id}&ep=${episode.no+1}`:'#'}" ${episode.no>=a.episodes.length?'style="opacity:.4;pointer-events:none;"':''}>Episode Selanjutnya →</a>
+            </div>
+            <p class="detail-sinopsis">${a.sinopsis}</p>
+          </div>
+          <div>
+            <h3 style="margin-bottom:10px;">Semua Episode</h3>
+            <div class="ep-sidebar">
+              ${a.episodes.map(e=>`<a class="${e.no===episode.no?'current':''}" href="anime.html?id=${a.id}&ep=${e.no}">Episode ${e.no}${e.no===episode.no?' (Diputar)':''}</a>`).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+
+      function playServer(server){
+        const wrap = document.getElementById('player-wrap');
+        if (server.type === 'mp4') {
+          wrap.innerHTML = `<video controls autoplay src="${server.url}"></video>`;
+        } else {
+          wrap.innerHTML = `<iframe src="${server.url}" allow="autoplay; fullscreen" allowfullscreen></iframe>`;
+        }
+      }
+      document.getElementById('server-tabs').innerHTML = episode.servers.map((s,i)=>
+        `<button class="server-tab ${i===0?'active':''}" data-i="${i}">${s.name}</button>`).join('');
+      document.querySelectorAll('.server-tab').forEach(btn=>{
+        btn.onclick = ()=>{
+          document.querySelectorAll('.server-tab').forEach(b=>b.classList.remove('active'));
+          btn.classList.add('active');
+          playServer(episode.servers[+btn.dataset.i]);
+        };
+      });
+      playServer(episode.servers[0]);
+
+      // Autoplay next episode saat video mp4 selesai (kalau setting aktif)
+      if (settings.anime.autoplayNext && episode.no < a.episodes.length) {
+        document.getElementById('player-wrap').addEventListener('ended', () => {
+          location.href = `anime.html?id=${a.id}&ep=${episode.no+1}`;
+        }, true);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', boot);
+  </script>
+</body>
+</html>

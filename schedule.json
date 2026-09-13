@@ -1,0 +1,102 @@
+[
+  {
+    "day": "Senin",
+    "time": "22:30",
+    "anime_id": "anime-10"
+  },
+  {
+    "day": "Selasa",
+    "time": "16:15",
+    "anime_id": "anime-16"
+  },
+  {
+    "day": "Rabu",
+    "time": "16:45",
+    "anime_id": "anime-19"
+  },
+  {
+    "day": "Kamis",
+    "time": "20:15",
+    "anime_id": "anime-10"
+  },
+  {
+    "day": "Jumat",
+    "time": "22:45",
+    "anime_id": "anime-13"
+  },
+  {
+    "day": "Sabtu",
+    "time": "19:45",
+    "anime_id": "anime-19"
+  },
+  {
+    "day": "Minggu",
+    "time": "18:45",
+    "anime_id": "anime-16"
+  },
+  {
+    "day": "Senin",
+    "time": "18:00",
+    "anime_id": "anime-04"
+  },
+  {
+    "day": "Selasa",
+    "time": "20:00",
+    "anime_id": "anime-04"
+  },
+  {
+    "day": "Rabu",
+    "time": "22:15",
+    "anime_id": "anime-01"
+  },
+  {
+    "day": "Kamis",
+    "time": "21:15",
+    "anime_id": "anime-13"
+  },
+  {
+    "day": "Jumat",
+    "time": "18:00",
+    "anime_id": "anime-13"
+  },
+  {
+    "day": "Sabtu",
+    "time": "17:15",
+    "anime_id": "anime-07"
+  },
+  {
+    "day": "Minggu",
+    "time": "17:00",
+    "anime_id": "anime-16"
+  },
+  {
+    "day": "Senin",
+    "time": "17:00",
+    "anime_id": "anime-01"
+  },
+  {
+    "day": "Selasa",
+    "time": "19:45",
+    "anime_id": "anime-07"
+  },
+  {
+    "day": "Rabu",
+    "time": "21:45",
+    "anime_id": "anime-04"
+  },
+  {
+    "day": "Kamis",
+    "time": "18:00",
+    "anime_id": "anime-07"
+  },
+  {
+    "day": "Jumat",
+    "time": "17:30",
+    "anime_id": "anime-01"
+  },
+  {
+    "day": "Sabtu",
+    "time": "21:30",
+    "anime_id": "anime-10"
+  }
+]

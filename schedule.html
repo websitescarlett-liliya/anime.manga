@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jadwal Rilis — Kuronime</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="schedule">
+
+  <div id="navbar-root"></div>
+
+  <main class="container">
+    <div class="page-title-bar"><h1>Jadwal Rilis Anime</h1></div>
+
+    <div class="toggle-row">
+      <label class="switch"><input type="checkbox" id="only-follow"><span class="switch-slider"></span></label>
+      <span>Hanya tampilkan yang saya ikuti</span>
+    </div>
+
+    <div class="day-tabs" id="day-tabs"></div>
+    <div id="schedule-list"></div>
+  </main>
+
+  <footer class="footer">Kuronime — Portal Anime & Manga. Tanpa iklan, 100% data lokal.</footer>
+
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+  <script>
+    const DAYS = ["Senin","Selasa","Rabu","Kamis","Jumat","Sabtu","Minggu"];
+    // Index JS getDay(): 0=Minggu..6=Sabtu -> map ke urutan DAYS (0=Senin)
+    const JS_DAY_TO_IDX = [6,0,1,2,3,4,5];
+
+    let scheduleData = [], animeData = [];
+    let activeDay = DAYS[JS_DAY_TO_IDX[new Date().getDay()]];
+    let onlyFollow = false;
+    let timerHandle = null;
+
+    async function boot(){
+      [scheduleData, animeData] = await Promise.all([loadSchedule(), loadAnime()]);
+      renderDayTabs();
+      document.getElementById('only-follow').onchange = (e) => {
+        onlyFollow = e.target.checked;
+        renderList();
+      };
+      renderList();
+      timerHandle = setInterval(updateCountdowns, 1000);
+    }
+
+    function renderDayTabs(){
+      document.getElementById('day-tabs').innerHTML = DAYS.map(d =>
+        `<button class="day-tab ${d===activeDay?'active':''}" data-day="${d}">${d}</button>`).join('');
+      document.querySelectorAll('.day-tab').forEach(btn => {
+        btn.onclick = () => {
+          activeDay = btn.dataset.day;
+          document.querySelectorAll('.day-tab').forEach(b=>b.classList.remove('active'));
+          btn.classList.add('active');
+          renderList();
+        };
+      });
+    }
+
+    function renderList(){
+      const box = document.getElementById('schedule-list');
+      let items = scheduleData.filter(s => s.day === activeDay);
+      if (onlyFollow) {
+        const follow = lsGet(LS.FOLLOW, []).filter(f => f.type === 'anime').map(f => f.id);
+        items = items.filter(s => follow.includes(s.anime_id));
+      }
+      if (!items.length) {
+        box.innerHTML = `<div class="center-empty">Tidak ada jadwal rilis untuk hari ${activeDay}${onlyFollow ? ' pada anime yang diikuti' : ''}.</div>`;
+        return;
+      }
+      items.sort((a,b) => a.time.localeCompare(b.time));
+      box.innerHTML = items.map(s => {
+        const a = animeData.find(x => x.id === s.anime_id);
+        if (!a) return '';
+        const following = isFollowing('anime', a.id);
+        return `<div class="schedule-row" data-time="${s.time}" data-day="${s.day}">
+          <img class="schedule-cover" src="${a.cover}" alt="${a.title}">
+          <div class="schedule-info">
+            <a href="anime.html?id=${a.id}" style="font-weight:700;">${a.title}</a>
+            <div class="schedule-time">${s.time} WIB</div>
+            <div class="schedule-countdown" data-countdown>menghitung...</div>
+          </div>
+          <button class="mini-btn follow-btn ${following?'primary':''}" data-id="${a.id}" data-title="${a.title}">${following ? '🔔 Diikuti' : 'Ikuti'}</button>
+        </div>`;
+      }).join('');
+
+      document.querySelectorAll('.follow-btn').forEach(btn => {
+        btn.onclick = () => {
+          const active = toggleFollow('anime', btn.dataset.id, btn.dataset.title);
+          btn.textContent = active ? '🔔 Diikuti' : 'Ikuti';
+          btn.classList.toggle('primary', active);
+          showToast(active ? `Mengikuti ${btn.dataset.title}` : `Berhenti mengikuti ${btn.dataset.title}`);
+        };
+      });
+      updateCountdowns();
+    }
+
+    function updateCountdowns(){
+      document.querySelectorAll('.schedule-row').forEach(row => {
+        const [h, m] = row.dataset.time.split(':').map(Number);
+        const dayIdx = DAYS.indexOf(row.dataset.day);
+        const now = new Date();
+        const curIdx = JS_DAY_TO_IDX[now.getDay()];
+        let diffDays = (dayIdx - curIdx + 7) % 7;
+        const target = new Date(now);
+        target.setDate(now.getDate() + diffDays);
+        target.setHours(h, m, 0, 0);
+        if (target <= now) target.setDate(target.getDate() + 7);
+
+        const diff = target - now;
+        const totalSec = Math.floor(diff / 1000);
+        const dd = Math.floor(totalSec / 86400);
+        const hh = Math.floor((totalSec % 86400) / 3600);
+        const mm = Math.floor((totalSec % 3600) / 60);
+        const ss = totalSec % 60;
+        const el = row.querySelector('[data-countdown]');
+        let txt = 'Rilis dalam ';
+        if (dd > 0) txt += `${dd} hari `;
+        txt += `${hh} jam ${mm} menit ${ss} detik`;
+        el.textContent = txt;
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', boot);
+  </script>
+</body>
+</html>
